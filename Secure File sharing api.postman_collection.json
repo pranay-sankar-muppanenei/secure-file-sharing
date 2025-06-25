@@ -1,0 +1,304 @@
+{
+	"info": {
+		"_postman_id": "09dce670-c513-4514-8f61-5d116f4bb32b",
+		"name": "Secure File sharing api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40678888"
+	},
+	"item": [
+		{
+			"name": "0/client/download/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlX2lkIjoxLCJlbWFpbCI6ImNsaWVudDFAZXhhbXBsZS5jb20iLCJyb2xlIjoiY2xpZW50IiwiaWF0IjoxNzUwODIzMjQ1LCJleHAiOjE3NTA4MjM1NDV9.2BGpgS01hViobBu3gcR3aAvMjAxJcdlsM6i8pnJnINM",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6ImNsaWVudDFAZXhhbXBsZS5jb20iLCJyb2xlIjoiY2xpZW50IiwiaXNfdmVyaWZpZWQiOjEsImlhdCI6MTc1MDgyMjY1NCwiZXhwIjoxNzUwODI5ODU0fQ.38oHvBuR5DywO8tZiRD796eUeYrKPxmxXHxt2UtlOLg",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"client1@example.com\",\n  \"password\": \"clientpass123\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/client/download/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlX2lkIjoxLCJlbWFpbCI6ImNsaWVudDFAZXhhbXBsZS5jb20iLCJyb2xlIjoiY2xpZW50IiwiaWF0IjoxNzUwODIzMjQ1LCJleHAiOjE3NTA4MjM1NDV9.2BGpgS01hViobBu3gcR3aAvMjAxJcdlsM6i8pnJnINM",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"client",
+						"download",
+						"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlX2lkIjoxLCJlbWFpbCI6ImNsaWVudDFAZXhhbXBsZS5jb20iLCJyb2xlIjoiY2xpZW50IiwiaWF0IjoxNzUwODIzMjQ1LCJleHAiOjE3NTA4MjM1NDV9.2BGpgS01hViobBu3gcR3aAvMjAxJcdlsM6i8pnJnINM"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/client/download/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlX2lkIjoxLCJlbWFpbCI6ImNsaWVudDFAZXhhbXBsZS5jb20iLCJyb2xlIjoiY2xpZW50IiwiaWF0IjoxNzUwODIyNzQ5LCJleHAiOjE3NTA4MjMwNDl9.8gqrWqPeWh3epAjXsHAnJz1Wyoh0UI-zE6hPKVFlLxU",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6ImNsaWVudDFAZXhhbXBsZS5jb20iLCJyb2xlIjoiY2xpZW50IiwiaXNfdmVyaWZpZWQiOjEsImlhdCI6MTc1MDgyMjY1NCwiZXhwIjoxNzUwODI5ODU0fQ.38oHvBuR5DywO8tZiRD796eUeYrKPxmxXHxt2UtlOLg",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"client1@example.com\",\n  \"password\": \"clientpass123\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/client/download/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlX2lkIjoxLCJlbWFpbCI6ImNsaWVudDFAZXhhbXBsZS5jb20iLCJyb2xlIjoiY2xpZW50IiwiaWF0IjoxNzUwODIyNzQ5LCJleHAiOjE3NTA4MjMwNDl9.8gqrWqPeWh3epAjXsHAnJz1Wyoh0UI-zE6hPKVFlLxU",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"client",
+						"download",
+						"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaWxlX2lkIjoxLCJlbWFpbCI6ImNsaWVudDFAZXhhbXBsZS5jb20iLCJyb2xlIjoiY2xpZW50IiwiaWF0IjoxNzUwODIyNzQ5LCJleHAiOjE3NTA4MjMwNDl9.8gqrWqPeWh3epAjXsHAnJz1Wyoh0UI-zE6hPKVFlLxU"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/client/download-link/1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6ImNsaWVudDFAZXhhbXBsZS5jb20iLCJyb2xlIjoiY2xpZW50IiwiaXNfdmVyaWZpZWQiOjEsImlhdCI6MTc1MDgyMjY1NCwiZXhwIjoxNzUwODI5ODU0fQ.38oHvBuR5DywO8tZiRD796eUeYrKPxmxXHxt2UtlOLg",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"client1@example.com\",\n  \"password\": \"clientpass123\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/client/download-link/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"client",
+						"download-link",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/auth/login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6ImNsaWVudDFAZXhhbXBsZS5jb20iLCJyb2xlIjoiY2xpZW50IiwiaXNfdmVyaWZpZWQiOjEsImlhdCI6MTc1MDc0Nzg1MywiZXhwIjoxNzUwNzU1MDUzfQ.ANKT3N41HfNXBWPB1cD1JnwDns8pzPGYDxvSN-1Fqm4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"client1@example.com\",\n  \"password\": \"clientpass123\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/auth/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/client/files",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJlbWFpbCI6ImNsaWVudDFAZXhhbXBsZS5jb20iLCJyb2xlIjoiY2xpZW50IiwiaXNfdmVyaWZpZWQiOjEsImlhdCI6MTc1MDc0NTMzNiwiZXhwIjoxNzUwNzUyNTM2fQ.o-SIZITgyVGaIQzpzDY2fS8xlEZjgrHsnq5Bm2PAjZc",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"client1@example.com\",\n  \"password\": \"clientpass123\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/client/files",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"client",
+						"files"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/auth/signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6Im9wczFAZXhhbXBsZS5jb20iLCJyb2xlIjoib3BzIiwiaWF0IjoxNzUwNzQzMDY4LCJleHAiOjE3NTA3NTAyNjh9.1Mn8SI8V3PwhHhRqYr51ncEujTHp-pwfM_vbBZGY9aY",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"client1@example.com\",\n  \"password\": \"clientpass123\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/auth/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"auth",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/ops/upload",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6Im9wczFAZXhhbXBsZS5jb20iLCJyb2xlIjoib3BzIiwiaWF0IjoxNzUwNzQzMDY4LCJleHAiOjE3NTA3NTAyNjh9.1Mn8SI8V3PwhHhRqYr51ncEujTHp-pwfM_vbBZGY9aY",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": []
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/ops/upload",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"ops",
+						"upload"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/auth/verify/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNsaWVudDFAZXhhbXBsZS5jb20iLCJpYXQiOjE3NTA3MzQwMzYsImV4cCI6MTc1MDczNzYzNn0.1L5q0jZXyQd9P4uASEkygaJoLDajwi1_Va5OkYVGAQw",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"client1@example.com\",\n  \"password\": \"clientpass123\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/auth/verify/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNsaWVudDFAZXhhbXBsZS5jb20iLCJpYXQiOjE3NTA3MzQwMzYsImV4cCI6MTc1MDczNzYzNn0.1L5q0jZXyQd9P4uASEkygaJoLDajwi1_Va5OkYVGAQw",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"auth",
+						"verify",
+						"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNsaWVudDFAZXhhbXBsZS5jb20iLCJpYXQiOjE3NTA3MzQwMzYsImV4cCI6MTc1MDczNzYzNn0.1L5q0jZXyQd9P4uASEkygaJoLDajwi1_Va5OkYVGAQw"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
